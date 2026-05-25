@@ -11,6 +11,7 @@ This repository starts with collaboration infrastructure before application code
 - `docs/architecture/` for domain language and ADRs
 - `docs/quality/` for review and done standards
 - `scripts/ai/check.sh` as the validation entrypoint
+- `scripts/ai/skills-check.sh` for project-level skill hygiene
 - `templates/` for reusable spec, plan, and ADR skeletons
 
 ## Initialize A New Project
@@ -19,7 +20,7 @@ This repository starts with collaboration infrastructure before application code
 2. Update this README with the product name, purpose, and stack.
 3. Fill `docs/architecture/domain-language.md` with project-specific terms.
 4. Add an initial ADR under `docs/architecture/adr/`.
-5. Customize `scripts/ai/check.sh` and `scripts/ai/arch-check.sh` for the stack.
+5. Customize `scripts/ai/check.sh`, `scripts/ai/arch-check.sh`, and `scripts/ai/skills-check.sh` for the stack and workflow.
 6. Use `templates/` when creating new specs, plans, and ADRs.
 7. Start non-trivial work with a spec and a slice plan.
 
@@ -38,7 +39,14 @@ For feature work:
 For maintenance:
 
 1. `tech-debt-scan`
-2. `test-fix-loop`
+2. `diagnose` for unexplained failures
+3. `test-fix-loop`
+4. `doc-update`
+
+For skill changes:
+
+1. `writing-skills`
+2. `scripts/ai/skills-check.sh`
 3. `doc-update`
 
 ## Validate

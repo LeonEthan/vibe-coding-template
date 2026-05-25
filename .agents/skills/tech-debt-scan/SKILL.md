@@ -1,6 +1,6 @@
 ---
 name: tech-debt-scan
-description: Use for dedicated technical debt cleanup tasks, periodic quality scans, or architecture-health reviews that are intentionally separate from feature delivery. The skill prioritizes rule-backed findings and small reviewable fixes.
+description: Use when the task is dedicated technical debt cleanup, periodic quality scanning, or architecture-health review.
 ---
 
 # Tech Debt Scan
@@ -9,7 +9,7 @@ Use this skill only when the task is explicitly about cleanup, maintenance, qual
 
 ## Workflow
 
-1. Run available checks, starting with `scripts/ai/check.sh` and `scripts/ai/arch-check.sh`.
+1. Run available checks, starting with `scripts/ai/check.sh`, `scripts/ai/arch-check.sh`, and `scripts/ai/skills-check.sh`.
 2. Inspect hotspots with objective signals: large files, duplicated logic, flaky tests, TODO clusters, broad modules, or unclear domain names.
 3. Propose small fixes that can be reviewed independently.
 4. Prefer one focused cleanup slice over a broad rewrite.

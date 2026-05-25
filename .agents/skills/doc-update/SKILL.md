@@ -1,6 +1,6 @@
 ---
 name: doc-update
-description: Use after implementation, review, or architecture changes to keep specs, plans, ADRs, and domain language concise and current. Remove obsolete planning detail when code is now the source of truth.
+description: Use when implementation, review, architecture changes, or documentation drift may require durable documentation updates.
 ---
 
 # Doc Update
@@ -15,6 +15,7 @@ Use this skill after a meaningful change ships or when documentation has drifted
 - Update `docs/architecture/domain-language.md` when new concepts or naming conventions are introduced.
 - Add or update ADRs for decisions that affect architecture, operations, data ownership, or long-term constraints.
 - Mark completed plan slices accurately.
+- Keep `docs/quality/skill-authoring.md` current when skill rules or checks change.
 
 ## Output
 

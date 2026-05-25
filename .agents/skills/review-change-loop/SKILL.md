@@ -1,6 +1,6 @@
 ---
 name: review-change-loop
-description: Use before handing off a code change, creating a PR, or after a substantial implementation. The skill focuses review on correctness, regressions, architecture fit, scope control, and missing validation.
+description: Use when a code change is ready for handoff, PR creation, or substantial local review.
 ---
 
 # Review Change Loop

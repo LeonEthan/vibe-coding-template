@@ -8,6 +8,7 @@ A change is done when:
 - `scripts/ai/check.sh` or the closest available validation command has been run.
 - Any validation failure is fixed or explicitly called out.
 - Durable architecture or domain decisions are reflected in docs.
+- Project-level skill changes pass `scripts/ai/skills-check.sh`.
 - The handoff includes evidence: commands, results, screenshots, logs, or test summaries.
 
 For exploratory prototypes, call out shortcuts and what would need hardening before production use.

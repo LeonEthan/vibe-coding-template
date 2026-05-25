@@ -1,6 +1,6 @@
 ---
 name: test-fix-loop
-description: Use when validation fails, tests are missing for a risky path, or the implementation needs red-green-refactor style feedback. The skill keeps test fixes scoped to user-story behavior.
+description: Use when validation fails, tests are missing for a risky path, or implementation needs red-green-refactor feedback.
 ---
 
 # Test Fix Loop
@@ -15,6 +15,8 @@ Use this skill to turn validation into a tight feedback cycle.
 4. Re-run the focused test.
 5. Re-run the broader validation command when the focused issue passes.
 6. Record command output in the handoff summary.
+
+Use `diagnose` instead when the failure is not understood or repeated fixes are not converging.
 
 ## Test Quality
 

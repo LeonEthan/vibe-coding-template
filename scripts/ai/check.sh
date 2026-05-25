@@ -44,6 +44,10 @@ if [[ -x scripts/ai/arch-check.sh ]]; then
   run_if_exists "architecture checks" scripts/ai/arch-check.sh
 fi
 
+if [[ -x scripts/ai/skills-check.sh ]]; then
+  run_if_exists "skill checks" scripts/ai/skills-check.sh
+fi
+
 if [[ "$ran" -eq 0 ]]; then
   echo "No stack-specific checks configured yet."
   echo "Customize scripts/ai/check.sh after adding a language framework."

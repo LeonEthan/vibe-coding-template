@@ -6,13 +6,13 @@ Linked spec: `docs/product/...`
 
 ## Slices
 
-| ID | Goal | Likely Files | Dependencies | Validation | Status |
-| --- | --- | --- | --- | --- | --- |
-| S1 |  |  | None |  | Pending |
+| ID | Type | Goal | Likely Files | Dependencies | Validation | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| S1 | AFK / HITL |  |  | None |  | Pending |
 
 ## Parallelization Notes
 
-Which slices can run independently, and which must be serialized?
+Which slices can run independently, which must be serialized, and which need human decisions?
 
 ## Rollback / Recovery Notes
 

@@ -6,9 +6,9 @@ Linked spec: `docs/product/...`
 
 ## Slices
 
-| ID | Goal | Likely Files | Dependencies | Validation | Status |
-| --- | --- | --- | --- | --- | --- |
-| S1 |  |  | None |  | Pending |
+| ID | Type | Goal | Likely Files | Dependencies | Validation | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| S1 | AFK / HITL |  |  | None |  | Pending |
 
 ## Parallelization Notes
 

@@ -1,6 +1,6 @@
 ---
 name: write-spec
-description: Use when turning a feature idea, bugfix direction, design discussion, or user decisions into a durable project spec under docs/product. The spec must capture background, user story, solution, acceptance plan, out of scope, and open questions.
+description: Use when feature ideas, bugfix directions, design discussions, or user decisions need to become durable project specs under docs/product.
 ---
 
 # Write Spec
@@ -9,7 +9,7 @@ Use this skill when a change is non-trivial or will run longer than a small edit
 
 ## Before Writing
 
-Read the relevant code and docs. If key decisions are missing, use `grill-me` first instead of inventing product direction.
+Read the relevant code, docs, domain language, and ADRs. If key decisions are missing, use `grill-me` first instead of inventing product direction.
 
 ## Spec Shape
 
@@ -32,6 +32,8 @@ Create or update a file under `docs/product/` with this structure:
 - Do not restate implementation details that are obvious from code.
 - Make `Out of Scope` explicit enough to prevent scope expansion during review.
 - Tie tests and validation to the user story, not to incidental class or field construction.
+- Use existing domain language. If a new durable term is introduced, update `docs/architecture/domain-language.md`.
+- Reference ADRs that constrain the solution. Create a new ADR only for durable architecture decisions.
 - Keep open questions crisp and decision-oriented.
 
 ## Handoff

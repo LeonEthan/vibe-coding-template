@@ -22,6 +22,12 @@ As a `<user>`, I want `<capability>` so that `<outcome>`.
 
 Describe the chosen direction and the key decisions a reviewer should inspect.
 
+## Domain Language / ADR Impact
+
+- New or changed terms:
+- ADRs referenced:
+- ADRs needed:
+
 ## Acceptance Plan
 
 - User flow or contract to validate:

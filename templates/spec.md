@@ -18,6 +18,12 @@ As a `<user>`, I want `<capability>` so that `<outcome>`.
 
 ## Proposed Solution
 
+## Domain Language / ADR Impact
+
+- New or changed terms:
+- ADRs referenced:
+- ADRs needed:
+
 ## Acceptance Plan
 
 - User flow or contract to validate:
