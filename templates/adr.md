@@ -7,4 +7,3 @@ Status: Proposed
 ## Decision
 
 ## Consequences
-

@@ -22,6 +22,7 @@ Create or update a file under `docs/product/` with this structure:
 - Goals
 - Non-Goals / Out of Scope
 - Proposed Solution
+- Domain Language / ADR Impact
 - Acceptance Plan
 - Risks and Tradeoffs
 - Open Questions

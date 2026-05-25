@@ -10,11 +10,11 @@ As a `<user>`, I want `<capability>` so that `<outcome>`.
 
 ## Goals
 
-- 
+-
 
 ## Non-Goals / Out of Scope
 
-- 
+-
 
 ## Proposed Solution
 
@@ -33,8 +33,8 @@ As a `<user>`, I want `<capability>` so that `<outcome>`.
 
 ## Risks And Tradeoffs
 
-- 
+-
 
 ## Open Questions
 
-- 
+-

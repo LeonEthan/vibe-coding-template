@@ -16,4 +16,4 @@ Linked spec: `docs/product/...`
 
 ## Progress Log
 
-- 
+-

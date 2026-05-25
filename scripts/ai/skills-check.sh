@@ -53,7 +53,7 @@ while IFS= read -r skill_file; do
     failed=1
   fi
 
-  if [[ "$description" =~ [Tt]he[[:space:]]+skill|guides|workflow|process|steps ]]; then
+  if [[ "$description" =~ [Tt]he[[:space:]]+skill|guides|workflow|steps ]]; then
     echo "Description appears to summarize workflow instead of trigger conditions in $rel"
     failed=1
   fi

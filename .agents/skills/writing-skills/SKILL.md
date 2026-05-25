@@ -45,7 +45,7 @@ Avoid:
 
 For meaningful skill edits:
 
-1. Write 2-3 pressure prompts that should trigger or not trigger the skill.
+1. Write or update 2-3 pressure prompts under `docs/quality/pressure-prompts/` when the behavior is worth preserving.
 2. Run `scripts/ai/skills-check.sh`.
 3. If possible, compare an agent's behavior before and after the skill edit.
 4. Tighten the description or body based on the observed failure mode.

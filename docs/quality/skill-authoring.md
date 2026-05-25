@@ -41,4 +41,6 @@ When a skill fails in practice, capture the failure as a pressure prompt:
 - What incorrect behavior happened?
 - What small rule would prevent the failure?
 
+Store reusable pressure prompts under `docs/quality/pressure-prompts/`.
+
 Prefer removing stale rules over accumulating prompts indefinitely.

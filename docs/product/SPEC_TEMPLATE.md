@@ -12,11 +12,11 @@ As a `<user>`, I want `<capability>` so that `<outcome>`.
 
 ## Goals
 
-- 
+-
 
 ## Non-Goals / Out of Scope
 
-- 
+-
 
 ## Proposed Solution
 
@@ -37,8 +37,8 @@ Describe the chosen direction and the key decisions a reviewer should inspect.
 
 ## Risks And Tradeoffs
 
-- 
+-
 
 ## Open Questions
 
-- 
+-

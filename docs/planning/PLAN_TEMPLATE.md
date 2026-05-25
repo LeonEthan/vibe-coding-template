@@ -20,4 +20,4 @@ What can be reverted independently? Are there feature flags or migration boundar
 
 ## Progress Log
 
-- 
+-
